@@ -1,11 +1,7 @@
 # Lost-and-Found-Item-System
 STUDENT LOST AND FOUND SYSTEM - ALL JAVA CODE
-============================================================
 
-
-============================================================
 FILE: Item.java
-============================================================
 
 public abstract class Item {
     private int id;
@@ -49,9 +45,7 @@ public abstract class Item {
     }
 }
 
-============================================================
 FILE: Student.java
-============================================================
 
 public class Student {
     private String studentId;
@@ -79,9 +73,8 @@ public class Student {
     }
 }
 
-============================================================
 FILE: LostItem.java
-============================================================
+
 
 public class LostItem extends Item {
     private Student owner;
@@ -104,9 +97,9 @@ public class LostItem extends Item {
     }
 }
 
-============================================================
+
 FILE: FoundItem.java
-============================================================
+
 
 public class FoundItem extends Item {
     private Student finder;
@@ -129,9 +122,8 @@ public class FoundItem extends Item {
     }
 }
 
-============================================================
 FILE: VoiceCommand.java
-============================================================
+
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -169,9 +161,8 @@ public class VoiceCommand {
     }
 }
 
-============================================================
 FILE: LostAndFoundGUI.java
-============================================================
+
 
 import javax.swing.*;
 import java.awt.*;
